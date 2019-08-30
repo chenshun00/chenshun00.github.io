@@ -158,7 +158,7 @@ job1:
 * 安装并启动 `Docker`. 初学者建议参考 [菜鸟教程](https://www.runoob.com/docker/docker-tutorial.html) .
 * 设置文件夹
 
-```shell script
+```text
   sudo mkdir -p  /srv/gitlab-runner/config
   sudo chmod -R 777 /srv/
 ```
@@ -169,7 +169,7 @@ job1:
 
 执行启动脚本
 
-```shell script
+```text
 sudo docker pull gitlab/gitlab-runner
 sudo docker run -d --name gitlab-runner --restart always  -v /srv/gitlab-runner/config:/etc/gitlab-runner     -v /var/run/docker.sock:/var/run/docker.sock     gitlab/gitlab-runner:latest
 ```
@@ -180,7 +180,7 @@ sudo docker run -d --name gitlab-runner --restart always  -v /srv/gitlab-runner/
 
 如果一切正常. 使用 `docker ps` 即可观察到正在运行的进程. 将runner和 `Gitlab` 项目挂钩.
 
-```shell script
+```text
 sudo docker exec -it gitlab-runner gitlab-ci-multi-runner register --run-untagged
 ```
 
