@@ -16,7 +16,7 @@
 
 首先要明白Spring是要解析xml文件放在第一位，不论后续的什么注解，其实本质都是xml的解析过程，我们不是要分析Spring是如何解析xml或者annotation的，所有我们只要了解到，从Spring开始处理controller的时候，已经处理好了xml这一解析过程，我们从 `RequestMappingHandlerMapping` 这个类入手，它的整体实例化都是位于 `InitializingBean接口的 afterPropertiesSet() 当中`，如下代码所示
 
-```java
+```text
 @Override
 	public void afterPropertiesSet() {
 		# 实例化 RequestMappingInfo.BuilderConfiguration 对象，稍后处理ReuquestMappingInfo的是会使用到

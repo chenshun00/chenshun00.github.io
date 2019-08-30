@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About me
-subtitle: 不断学习的后端小程序员
+title: 关于我
+subtitle: 时而抽风的人
 ---
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- 2014-2018 毕业于湖南科技大学.
+- 2017-12 - 2018-06 光云科技实习
+- 2018-06 - 至今 光云科技
 
-What else do you need?
+### 个人技能
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+熟练的使用 `Spring`
+熟练掌握 `SpringBoot`. 解决监控系统(Jsp)和SpringBoot Jar包发布的兼容问题. 开发
