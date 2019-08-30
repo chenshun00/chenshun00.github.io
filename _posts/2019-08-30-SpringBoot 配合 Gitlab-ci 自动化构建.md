@@ -4,7 +4,7 @@
 
 使用前:
 
-* 注册 `[Gitlab](https://gitlab.com)` 账号一个.
+* 注册 [Gitlab](https://gitlab.com) 账号一个.
 
 #### SpringBoot 单元测试
 
@@ -69,7 +69,6 @@ public class UserDao {
 本地 `MySql` 创建 `DB` 和 `库` 即可进行测试.
 
 执行 `mvn test` 运行单元测试. 
-出现 `Tests run: 1, Failures: 0, Errors: 0, Skipped: 0` 为测试通过.
 
 #### Gitlab-ci
 
@@ -158,7 +157,7 @@ job1:
 * 安装并启动 `Docker`. 初学者建议参考 [菜鸟教程](https://www.runoob.com/docker/docker-tutorial.html) .
 * 设置文件夹
 
-```text
+```bash
   sudo mkdir -p  /srv/gitlab-runner/config
   sudo chmod -R 777 /srv/
 ```
@@ -169,7 +168,7 @@ job1:
 
 执行启动脚本
 
-```text
+```bash
 sudo docker pull gitlab/gitlab-runner
 sudo docker run -d --name gitlab-runner --restart always  -v /srv/gitlab-runner/config:/etc/gitlab-runner     -v /var/run/docker.sock:/var/run/docker.sock     gitlab/gitlab-runner:latest
 ```
@@ -180,13 +179,13 @@ sudo docker run -d --name gitlab-runner --restart always  -v /srv/gitlab-runner/
 
 如果一切正常. 使用 `docker ps` 即可观察到正在运行的进程. 将runner和 `Gitlab` 项目挂钩.
 
-```text
+```bash
 sudo docker exec -it gitlab-runner gitlab-ci-multi-runner register --run-untagged
 ```
 
 实际操作如下所示:
 
-```text
+```bash
 ➜  blog docker ps
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 ➜  blog sudo docker exec -it gitlab-runner gitlab-ci-multi-runner register --run-untagged
