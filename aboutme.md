@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 关于我
-subtitle: 时而抽风的人
+subtitle: 请叫我CV程序员
 ---
 
 - 2014-2018 毕业于湖南科技大学.

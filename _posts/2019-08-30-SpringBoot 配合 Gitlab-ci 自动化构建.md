@@ -234,4 +234,6 @@ Runner registered successfully. Feel free to start it, but if it's running alrea
 
 ![](../img/token.png)
 
+> 使用 `sudo docker exec -it xxxxx  /bin/bash` 连接docker
+
 到这里就结束了，你也试试吧. :)
