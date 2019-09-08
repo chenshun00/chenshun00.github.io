@@ -42,7 +42,7 @@ logging.path=${user.home}/open/test
 测试代码:
 
 ```java
-	@Autowired
+    @Autowired
     private UserDao userDao;
 
     @Test
@@ -173,6 +173,6 @@ exit 0
 
 #### 参考文章
 
-[阿里巴巴java开发手册#单元测试](https://www.kancloud.cn/kanglin/java_developers_guide/539190)
-[Mockito框架中文文档](https://github.com/hehonghui/mockito-doc-zh)
+[阿里巴巴java开发手册#单元测试](https://www.kancloud.cn/kanglin/java_developers_guide/539190)<br>
+[Mockito框架中文文档](https://github.com/hehonghui/mockito-doc-zh)<br>
 [SpringBoot与JUnit+Mockito 单元测试](https://www.tianmaying.com/tutorial/JunitForSpringBoot)
