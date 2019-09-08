@@ -167,6 +167,12 @@ fi
 exit 0
 ```
 
+执行效果图
+
+![](../img/unit/start.jpg)
+
+![](../img/unit/end.jpg)
+
 通过SpringBoot单元测试 + `Gitlab-ci` 就可以完美的执行我们需要的单元测试了. 虽然前期会稍微费一点时间，却会减少线上潜在的小问题. :)
 
 代码地址: [code](https://gitlab.com/chenshun00/test)
