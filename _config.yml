@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname;没有hostname之后的url路径
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://www.huzhurong.top"
-baseurl: ""
+#url: "https://www.huzhurong.top"
+#baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -14,21 +14,21 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: chenshun00
+#title: chenshun00
 
 # Short description of your site
-description: 啥都没有
+#description: 啥都没有
 
 # --- 导航条选项 --- #
 
 # List of links in the navigation bar 导航条链接
-navbar-links:
-  关于我: "aboutme"
-  学习资源:
-    - Github: "https://github.com/chenshun00"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - 知 乎: "https://www.zhihu.com/people/lovrrrrr/activities"
-  我的主页: "https://www.huzhurong.top"
+#navbar-links:
+#  关于我: "aboutme"
+#  学习资源:
+#    - Github: "https://github.com/chenshun00"
+#    - Learn markdown: "http://www.markdowntutorial.com/"
+#    - 知 乎: "https://www.zhihu.com/people/lovrrrrr/activities"
+#  我的主页: "https://www.huzhurong.top"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -73,11 +73,11 @@ author:
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
-social-network-links:
-  rss: true
-  email: "chenshun00@gmail.com"
+#social-network-links:
+#  rss: true
+#  email: "chenshun00@gmail.com"
 #  facebook: daattali
-  github: chenshun00
+#  github: chenshun00
 #  twitter: daattali
 #  reddit: yourname
 #  google-plus: +DeanAttali
@@ -86,7 +86,7 @@ social-network-links:
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
-  youtube: user/chenshun00
+#  youtube: user/chenshun00
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -94,12 +94,12 @@ social-network-links:
 #  yelp: yourname
 
 # Select which share links to show in posts
-share-links-active:
-  twitter: false
-  facebook: false
-  google: true
-  github: true
-  linkedin: false
+#share-links-active:
+#  twitter: false
+#  facebook: false
+#  google: true
+#  github: true
+#  linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -140,7 +140,7 @@ url-pretty: "huzhurong.top"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+excerpt_length: 60
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
